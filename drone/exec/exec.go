@@ -149,6 +149,16 @@ var Command = cli.Command{
 			Name:  "deploy-to",
 			Usage: "deployment target (e.g. production)",
 		},
+		cli.BoolFlag{
+			Name:   "debug",
+			Usage:  "enable debug logging",
+			EnvVar: "DRONE_DEBUG",
+		},
+		cli.BoolFlag{
+			Name:   "trace",
+			Usage:  "enable trace logging",
+			EnvVar: "DRONE_TRACE",
+		},
 	},
 }
 
@@ -359,7 +369,10 @@ func exec(cliContext *cli.Context) error {
 		),
 	)
 
-	engine, err := engine.NewEnv(engine.Opts{})
+	engine, err := engine.NewEnv(engine.Opts{
+		Debug: commy.Debug,
+		Trace: commy.Trace,
+	})
 	if err != nil {
 		return err
 	}

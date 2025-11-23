@@ -47,8 +47,6 @@ github.com/docker/go-connections v0.4.0/go.mod h1:Gbd7IOopHjR8Iph03tsViu4nIes5Xh
 github.com/docker/go-units v0.4.0/go.mod h1:fgPhTUdO+D/Jk86RDLlptpiXQzgHJF7gydDDbaIK4Dk=
 github.com/docker/go-units v0.5.0 h1:69rxXcBk27SvSaaxTtLh/8llcHD8vYHT7WSdRZ/jvr4=
 github.com/docker/go-units v0.5.0/go.mod h1:fgPhTUdO+D/Jk86RDLlptpiXQzgHJF7gydDDbaIK4Dk=
-github.com/drone-runners/drone-runner-docker v1.8.3 h1:uUnC45C1JMSLW+9uy6RoKG5ugzeXWN89pygs9BMLObY=
-github.com/drone-runners/drone-runner-docker v1.8.3/go.mod h1:JR3pZeVZKKpkbTajiq0YtAx9WutkODdVKZGNR83kEwE=
 github.com/drone/drone-go v1.7.1 h1:ZX+3Rs8YHUSUQ5mkuMLmm1zr1ttiiE2YGNxF3AnyDKw=
 github.com/drone/drone-go v1.7.1/go.mod h1:fxCf9jAnXDZV1yDr0ckTuWd1intvcQwfJmTRpTZ1mXg=
 github.com/drone/envsubst v1.0.2/go.mod h1:bkZbnc/2vh1M12Ecn7EYScpI4YGYU0etwLJICOWi8Z0=
@@ -104,8 +102,6 @@ github.com/hashicorp/errwrap v1.1.0/go.mod h1:YH+1FKiLXxHSkmPseP+kNlulaMuP3n2brv
 github.com/hashicorp/go-multierror v1.0.0/go.mod h1:dHtQlpGsu+cZNNAkkCN/P3hoUDHhCYQXV3UM06sGGrk=
 github.com/hashicorp/go-multierror v1.1.1 h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+lD48awMYo=
 github.com/hashicorp/go-multierror v1.1.1/go.mod h1:iw975J/qwKPdAO1clOe2L8331t/9/fmwbPZ6JB6eMoM=
-github.com/jackspirou/syscerts v0.0.0-20160531025014-b68f5469dff1 h1:9Xm8CKtMZIXgcopfdWk/qZ1rt0HjMgfMR9nxxSeK6vk=
-github.com/jackspirou/syscerts v0.0.0-20160531025014-b68f5469dff1/go.mod h1:zuHl3Hh+e9P6gmBPvcqR1HjkaWHC/csgyskg6IaFKFo=
 github.com/joho/godotenv v1.3.0/go.mod h1:7hK45KPybAkOC6peb+G5yklZfMxEjkZhHbwpqxOKXbg=
 github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=

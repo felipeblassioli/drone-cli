@@ -89,6 +89,8 @@ func mapOldToExecCommand(input *cli.Context) *execCommand {
 		Config:     input.String("registry"),
 		Privileged: input.StringSlice("privileged"),
 		Pretty:     input.BoolT("pretty"),
+		Debug:      input.Bool("debug"),
+		Trace:      input.Bool("trace"),
 	}
 }
 
